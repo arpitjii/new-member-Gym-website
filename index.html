@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpit Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+body{
+    
+    margin: 0px;
+    padding: 0px;
+background-image: url('https://wallpapercave.com/wp/wp2482799.jpg ');
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.left{
+    display: inline-block;
+    /*border: 2px solid red;*/
+    position: absolute;
+    left: 38px;
+    top: 13px;
+}
+.left img{
+    width: 100px;
+}
+
+.left div{
+    text-align: center;
+    
+}
+.mid{
+    display:block;
+    width: 50%;
+    margin:20px auto;
+ /*   border: 2px solid yellow;*/
+
+}
+
+.right{
+    position:absolute;
+    right: 38px;
+    top: 13px;
+    display: inline-block;
+    /*border: 2px solid green;*/
+
+}
+
+
+
+.mid li{
+display: inline-block;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mid li a{
+    color: aliceblue;
+    text-decoration: none;
+   padding: 80px 23px;
+}
+.mid li a:hover, .mid li a.active{
+text-decoration: underline;
+color: grey;
+
+}
+.btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 0px 9px;
+background-color: black;
+color:antiquewhite;
+padding: 4px 14px;
+border: 2px solid grey;
+border-radius: 10px;
+font-size: 15px;
+cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(182, 175, 175);
+}
+.container{
+    border: 2px solid white;
+    margin: 250px 80px;
+    padding: 90px;
+    width: 33%;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width:300px;
+    padding: 6px;
+    border: 2px solid black;
+    margin: 4px auto;
+}
+.container h1{
+    test-align: center;
+}
+.container button{
+    display: block;
+    width: 70%;
+    margin: 30px auto;
+}
+</style>
+<body>
+    <header class="header">
+<!--Left box for logo-->
+<div class="left">
+<img src="https://th.bing.com/th/id/OIP.uQtbgGlU0dMTvET165nivgHaHa?w=612&h=612&rs=1&pid=ImgDetMain">
+<div>Arpit Fitness</div>
+
+
+
+</div>
+
+<!--mid box for navbar-->
+<div class="mid">
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Equipments</a></li>
+    <li><a href="#">Contact Us</a></li>
+</div>
+
+<!--right box for buttons-->
+<div class="right">
+<button class="btn">Log in</button>
+</div>
+    </header>
+    <div class="container">
+        <h1>If you wanna GROW, just join Arpit Fitness BRO</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+             <input type="text" name="name" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="gender" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="age" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="locality" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="number" placeholder="Enter your Phone.No ">
+            </div> 
+            <button class="btn">SUBMIT</button>
+        </form>
+    </div>
+    <h4>dwivediarpit828@gnail.com</h4>
+    <h4>9555857546</h4>
+</body>
+</html>
